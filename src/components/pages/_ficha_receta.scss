@@ -1,0 +1,101 @@
+.caja_presentacion{
+    margin-top: 5rem;
+}
+.foto_plato{
+    height: 347px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+    margin-left: -30px;
+}
+.pasta_calabaza{
+    background-image: url(../img/foto_pasta_calabaza.jpg);
+}
+.solomillo{
+    background-image: url(../img/foto_solomillo.jpg);
+    
+}
+@media screen and (min-width: 760px){
+    .foto_plato{
+      margin-left: 100px;
+      width: 724px;
+    }
+    .out{
+        display: none;
+        margin-top: 0;
+    }
+}
+.container_receta{
+    padding-top: 100px;
+}
+
+.icono{
+    width: 30px;
+}
+.ficha{
+    margin-left: 30px;
+  }
+.dificultadYpreparacion, .cocinaYdosis{
+    display: flex;
+}
+@media screen and (min-width: 760px){
+    .ficha{
+      display: flex;
+      margin-left: 130px;
+    }
+    .cocinaYdosis{
+        margin-left: 0;
+      }
+      .preparacion{
+        margin-left: 0;
+    }
+    .cocinaYdosis{
+        margin-left: 48px;
+    }
+}
+.preparacion{
+    margin-left: 48px;
+}
+.dosis{
+    margin-left: 75px;
+}
+.descripcion{
+    margin-top: 65px;
+}
+@media screen and (min-width: 760px){
+    .descripcion{
+      margin-top: 70px;
+    }
+    .comosehace{
+        margin-top: 35px;
+        max-width: 50%;
+    }
+}
+.ingredientes{
+    background: rgba(0, 255, 162, 0.205);
+    padding: 1rem;
+}
+.comosehace{
+    margin-top: 35px;
+    max-width: 80%;
+}
+.blue{
+    padding: 0.5rem 30px;
+    margin-top: 5rem;
+    color: #333333;
+    background: #00FFA3;
+    text-decoration: none;
+}
+@media screen and (min-width : 760px){
+    .blue{
+    padding: 0.5rem 100px;
+    }
+  }
+.back{
+    display: flex;
+    padding-top: 2rem;
+    
+}
+.blue:hover{
+    background-color: rgba(0, 255, 162, 0.315);
+}
