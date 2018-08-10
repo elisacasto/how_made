@@ -6,22 +6,20 @@
   padding: 1rem 0;
   position: fixed;
   width: 100%;
- 
 }
 ul {
   list-style-type:none;
   margin:0;
   padding:0;
   }
+
 .logo{
-  margin-left: 2rem; 
+  margin: auto; 
 }
-@media screen and (max-width : 760px){
-  .cajaLogo{
-    margin:auto;
-    
-  }
+.cajaLogo{
+  margin: auto;
 }
+
 .cajaMenu{
   justify-content: flex-end;
 }
@@ -49,11 +47,11 @@ li a {
   text-decoration: none;
 }
 .activo{
-  color: #00FFA3;
+  color: #FCEC9B;
 }
 /*Hover state for top level links*/
 li:hover a {
-  color: #00FFA3;
+  color: #FCEC9B;
 }
 /*Style for dropdown links*/
 li:hover ul a {
@@ -64,7 +62,7 @@ li:hover ul a {
 }
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-  background: #00FFA3;
+  background: #FCEC9B;
   color: #333333;
 }
 /*Hide dropdown links until they are needed*/
@@ -90,8 +88,9 @@ ul li a:hover + .hidden, .hidden:hover {
 .show-menu {
   font-family: "Anton", sans-serif;
   text-decoration: none;
+  font-size: 13px;
   color: #333333;
-  background: #00FFA3;
+  background: #FCEC9B;
   text-align: center;
   padding: 10px 0;
   display: none;
