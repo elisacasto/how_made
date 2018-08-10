@@ -19,7 +19,14 @@ ul {
 .cajaLogo{
   margin: auto;
 }
-
+@media screen and (min-width : 760px){
+  .cajaLogo{
+    margin-left: 100px;
+  }
+  .cajaMenu{
+    margin-left: 48px;
+  }
+}
 .cajaMenu{
   justify-content: flex-end;
 }
