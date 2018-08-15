@@ -1,3 +1,18 @@
+.fondo_home{
+    background-image: url(../img/foto_home.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*.opacidad{
+    position: absolute;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+    opacity: .3;
+}*/
 .container_ficha{
     padding-top: 20px;
 }
