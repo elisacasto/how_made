@@ -8,6 +8,7 @@
     margin-bottom: 3rem;
     margin-left: -30px;
 }
+
 .pasta_calabaza{
     background-image: url(../img/foto_pasta_calabaza.jpg);
 }
@@ -33,7 +34,6 @@
 .container_receta{
     padding-top: 50px;
 }
-
 .icono{
     width: 30px;
 }
@@ -55,8 +55,22 @@
         margin-left: 0;
     }
     .cocinaYdosis{
-        margin-left: 48px;
+        margin-left: 0;
     }
+    .caja_titulo{
+        margin: 0 auto;
+    }
+    .caja_iconos{
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1024px){
+    .caja_iconos{
+      display: flex;
+    }
+    .cocinaYdosis{
+        margin-left: 48px;
+      }
 }
 .preparacion{
     margin-left: 48px;

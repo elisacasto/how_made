@@ -6,13 +6,6 @@
     background-position: center;
     background-attachment: fixed;
 }
-/*.opacidad{
-    position: absolute;
-    height: 3rem;
-    width: 100%;
-    background-color: black;
-    opacity: .3;
-}*/
 .container_ficha{
     padding-top: 20px;
 }
@@ -47,7 +40,7 @@
     border: 3px solid #333333;
     margin: auto;
     padding:2rem;  
-    width: 213px;
+    width: 218px;
 }
 
 @media screen and (min-width: 760px){
@@ -61,6 +54,7 @@
 @media screen and (min-width: 1024px){
     .info{
         margin-top: 7.4rem;
+        width: 580px;
     }
 }
 @media screen and (min-width: 1024px){
@@ -70,26 +64,31 @@
 }
 .boton{
     background-color: #FCEC9B;
-    padding:0 10px;
+    padding:5px 13px;
     width: auto;
-    font-family: anton, sans serif;
-    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
     line-height: 54px;
     color: #333333;
     text-decoration: none;
-    margin-left: 33px;
+    margin-left: 21px;
 }
 @media screen and (min-width: 760px){
     .boton{
-        margin-left: 163px;
+        margin-left: 148px;
         margin-top: 1rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .boton{
+        margin:0 auto;
     }
 }
 .boton:hover{
     background-color: rgba(243, 241, 105, 0.986);
 }
 .titulo_plato{
-    font-family: anton, sans serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     margin-bottom: 3rem;
     color: #333333; 
@@ -98,6 +97,5 @@
 @media screen and (min-width : 760px){
     .titulo_plato{
     font-size: 24px;
-    margin-left: 118px;
     }
   }
