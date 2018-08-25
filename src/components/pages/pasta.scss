@@ -41,7 +41,7 @@ html, body{
         margin-left: 71px;
     }
 }
-#box-1, #box-4, #box-5, #box-6{
+#box-1, #box-5, #box-6{
     background-image: url(../img/foto_pasta_calabaza.jpg);
     background-size: cover;
     background-position: center;
@@ -59,6 +59,14 @@ html, body{
 }
 #box-3{
     background-image: url(../img/pasta_con_champinones.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 1rem auto;
+}
+#box-4{
+    background-image: url(../img/pasta_con_gambas.jpg);
     background-size: cover;
     background-position: center;
     width: 200px;
