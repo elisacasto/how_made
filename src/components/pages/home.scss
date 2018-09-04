@@ -9,12 +9,22 @@
 
 .presentacion{
     background-color: rgb(247, 244, 244);
-    padding: 5rem; 
+    padding: 2rem;
+}
+@media screen and (min-width:760px){
+    .presentacion{
+        padding: 5rem;
+    }
 }
 .center{
     text-align: center !important;
     margin: 0 auto;
-    max-width: 80%;
+    
+}
+@media screen and (min-width:760px){
+    .center{
+        max-width: 70%;
+    }
 }
 .marg{
     padding-bottom:1.5rem;
