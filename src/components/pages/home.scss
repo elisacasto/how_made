@@ -129,10 +129,17 @@
 .copyright{
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
-    line-height: 30px;
+    line-height: 20px;
     color: #333333;
     font-weight: 100;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    background: #e7e5e5;
+    margin-bottom: 0;
+}
+@media screen and (min-width : 760px){
+    .copyright{
+    margin-top: 5rem;
+    }
 }
 .text{
     text-align: center;
