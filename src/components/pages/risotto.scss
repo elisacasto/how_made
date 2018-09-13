@@ -1,0 +1,26 @@
+/*fotos pagina risotto*/
+#box-calamares{
+    background-image: url(../img/foto_risotto_calamares.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 1rem auto;
+}
+#box-polloypina{
+    background-image: url(../img/foto_risotto_polloypina.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 1rem auto;
+}
+
+
+/*fotos paginas recetas*/
+.risotto_calamares{
+    background-image: url(../img/foto_risotto_calamares.jpg);
+}
+.risotto_polloypina{
+        background-image: url(../img/foto_risotto_polloypina.jpg);
+}
