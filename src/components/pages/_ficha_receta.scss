@@ -35,8 +35,7 @@
 }
 @media screen and (min-width: 760px){
     .foto_plato{
-      margin-left: 100px;
-      width: 724px;
+      width: 700px;
     }
     .out{
         display: none;
@@ -51,18 +50,18 @@
 }
 .ficha{
     margin-left: 30px;
-    border: 3px solid #333333;
+    background-color: white;
     margin: auto;
     padding:2rem;  
-    width: 218px;
   }
 .dificultadYpreparacion, .cocinaYdosis{
     display: flex;
+    max-width: 176px;
+    margin: 0 auto;
 }
 @media screen and (min-width: 760px){
     .ficha{
       display: flex;
-      margin-left: 100px;
       width: 530px;
     }
     .cocinaYdosis{
@@ -93,7 +92,7 @@
     margin-left: 48px;
 }
 .dosis{
-    margin-left: 75px;
+    margin-left: 62px;
 }
 .descripcion{
     margin-top: 65px;

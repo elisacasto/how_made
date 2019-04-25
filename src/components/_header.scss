@@ -2,7 +2,7 @@
 .header{
   display: flex;
   flex-wrap: wrap;
-  background: #2f3036;
+  background: #333333;
   padding: 1rem 0 0.5rem 0;
   width: 100%;
   z-index: 1;
@@ -16,6 +16,7 @@ ul {
 
 .logo{
   margin: auto; 
+  width: 50px;
 }
 .cajaLogo{
   margin: auto;
@@ -50,28 +51,29 @@ li a {
   text-align: center;
   line-height: 50px;
   font-family: "Montserrat", sans-serif;
-  color: #FCEC9B;
-  background: #2f3036;
+  color: #ffffff;
+  background: #333333;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 .activo{
   text-decoration: underline;
-  color: #FCEC9B;
+  color: rgb(255, 213, 0);
 }
 /*Hover state for top level links*/
 li:hover a {
-  color: #FCEC9B;
+  color: rgb(255, 213, 0);
 }
 /*Style for dropdown links*/
 li:hover ul a {
   background: #f3f3f3;
-  color: #2f3036;
+  color: #333333;
   height: 40px;
   line-height: 40px;
 }
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-  background: #FCEC9B;
+  background: rgb(255, 213, 0);
   color: #333333;
 }
 /*Hide dropdown links until they are needed*/
@@ -97,11 +99,12 @@ ul li a:hover + .hidden, .hidden:hover {
 .show-menu {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  letter-spacing: 2px;
   font-size: 13px;
-  color: #333333;
-  background: #FCEC9B;
+  color: rgb(255, 213, 0);
+  background: #333333;
   text-align: center;
-  padding: 10px 0;
+  padding: 5px 0;
   display: none;
 }
 /*Hide checkbox*/
