@@ -12,22 +12,27 @@ body{
     text-align: center;
     margin-top: 0;
     padding-top: 2rem;
+    letter-spacing: 1px;
         
 }
 .subtitulo{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    margin-top: 7rem;
     margin-left: 30px;
     line-height: 42px;
     color: #333333;
-    font-weight: 100;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgb(255, 213, 0);
+    text-align: center;
+    margin: 6rem auto 0;
+    width: 30%;
 }
 .titulo_secondario{
     font-family: "playfair display", serif;
     font-size: 20px;
     color: #6d6d6d;
-    margin-left: 30px;
+    text-align: center;
     margin-top: 17px;
     margin-bottom: 12px;
     font-weight: 100;
@@ -40,6 +45,7 @@ body{
     margin-top: 0;
     font-weight: 100;
     line-height: 35px;
+    letter-spacing: 1px;
 }
 .h4{
     font-family: "Roboto", sans-serif;
@@ -74,12 +80,7 @@ body{
         text-align: center;
         letter-spacing: 1.3px;
     }
-    .subtitulo{
-        margin-left: 100px;
-      }
-    .titulo_secondario{
-        margin-left: 100px;
-      }
+  
     .parrafo{
         font-size: 20px;
     }

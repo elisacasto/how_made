@@ -23,6 +23,8 @@
 .center{
     text-align: center !important;
     margin: 0 auto;
+    padding-bottom:1.5rem;
+    letter-spacing: 1apx;
     
 }
 @media screen and (min-width:760px){
@@ -30,9 +32,7 @@
         max-width: 70%;
     }
 }
-.marg{
-    padding-bottom:1.5rem;
-}
+
 .container_ficha{
     max-width: 1024px;
     margin: 0 auto;
@@ -122,9 +122,9 @@
     }
 }
 .boton:hover{
-    background-color: white;
+    background-color: rgb(255, 213, 0);
     color: black;
-    border: solid 2px #333333;
+    font-weight: bold;
 }
 .titulo_plato{
     font-family: "Montserrat", sans-serif;
